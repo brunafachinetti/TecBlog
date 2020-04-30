@@ -1,172 +1,126 @@
-			* {
-				margin: 0;
-				padding: 0;
-			}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
-			body {
-				font-family: Trebuchet MS, sans-serif;
-				background-color: #E6E6E6;
-				font-size: 16px;
-			}
+body {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 16px;
+	background-color: #D8D8D8;
+}
 
-			
-			h1 {
-				color: gray;
-				text-align: center;
-				padding: 20px 10px 10px 10px;
-				font-size: 42px;
-			}
+a {
+	text-decoration: none;
+}
 
-			h2 {
-				color: #FFBF00;
-				font-weight: bold;
-				margin: 0px;
-			}
+a:link, a:visited {
+	color: #FF4000;
+}
 
-			img {
-				margin-bottom: 5px;
-				width: 620px;
-			}
+a:hover {
+	color: #B40404;
+}
 
-			
-			#topo {
-				padding: 15px;
-				text-align: center;
-				background-color: #FFBF00;
-			}
+/*--------inicio da area do topo-----------------*/
 
-			#menu {
-				padding: 10px;	
-			}
+#cabecalho {
+	background-color: #FF8000;
+	height: 147px;
+}
 
-			#menu a {
-				padding: 10px;
-				text-decoration: none;
-			}
-			
-		
-			/*Links nao visitados*/
-			#manu a:link, #menu a:visited {
-				color: white;
-			}
+#logo {
+	text-align: center;
+	padding: 30px 20px 20px 20px;
+}
 
-			/*Quando passa o cursor sobre o link*/
-			#menu a:hover {
-				color: #FFBF00;
-				background-color: white;
-			}
+h1 {
+	color: #424242;
+	font-size: 3em;
+}
 
-			/*Quando clica e segura*/
-			#menu a:active {
-				color: white;
-				background-color: red;
-			}
+#branco {
+	color: white;
+}
 
-			.area_postagens {
-				float: left;
-			}
+#menu {
+	font-size: 1.1em;
+	text-align: center;
+}
 
-			#container {
-				width: 920px;
-				margin: 0px auto;
-				padding: 15px;
-			}
+#menu a {
+	text-decoration: none;
+	padding: 10px;
+}
 
-			#conteudo {
-				background-color: white;
-				width: 620px;
-				padding: 20px;
-				margin-right: 20px;
-				margin-bottom: 20px;
-			}
+#menu a:link, #menu a:visited {
+	color: white;
+}
 
-			#conteudo a {
-							text-decoration: none;	
-						}
+#menu a:hover {
+	background-color: white;
+	color: #FF4000;
+}
 
-						#conteudo a:link, #conteudo a:visited {
-							color: #f7b600;
-						}
+/*-----fim da area do topo---------------------*/
 
-						#conteudo a:hover {
-							text-decoration: underline;
-						}
+#principal {
+	width: 920px;
+	margin: 20px auto;
+}
+
+#area_postagem {
+	width: 660px;
+	float: left;
+}
+
+.post {
+	background-color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #FF4000;
+}
+
+#subtitulo {
+	font-size: 0.8em;
+	margin-bottom: 20px;
+}
 
 
+/********inicio da area lateral**********/
 
-			#conteudo_lateral {
-				padding: 5px;
-				border-bottom: 1px dotted #CCC;
-			}
+#area_lateral {
+	width: 240px;
+	float: right;
+}
 
-			#conteudo_lateral a {
-							text-decoration: none;	
-						}
+.bloco_lateral {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
 
-						#conteudo_lateral a:link, #conteudo_lateral a:visited {
-							color: #f7b600;
-						}
+h3 {
+	padding: 10px;
+	background-color: #BDBDBD;
+	color: #424242;
+}
 
-						#conteudo_lateral a:hover {
-							text-decoration: underline;
-						}
+.publi_recentes {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted gray;
+}
 
-			#titulo_cinza {
-				width: 210px;
-				height: 20px;
-				background-color:#E6E6E6;
-				margin-top: 0px;
-				margin-bottom: 5px;
-				color: #848484;
-				font-weight: bold;
-				font-size: 18px;
-				padding: 5px;
-			}
+/*************fim da area lateral************/
 
-			#links {
-				color: orange;
-				text-decoration: none;
-
-			}
-
-			#rodape {
-				background-color: gray;
-				font-size: 16px;
-				text-align: center;
-				clear: both;
-				padding: 10px;
-			}
-
-			.lateral {
-				background-color: white;
-				width: 220px;
-				padding: 10px 10px 10px 10px;
-				float: left;
-				margin-bottom: 20px;
-				font-family: Trebuchet MS, sans-serif;
-				font-size: 14px;
-			}
-			.lateral a{
-				text-decoration: none;
-			}
-
-			.lateral a:link, .lateral a:visited {
-							color: #f7b600;
-						}
-
-			.lateral a:hover {
-							text-decoration: underline;
-						}
-
-			.subtitulo {
-				font-size: 12px;
-				margin: 2px 10px 20px 0px;
-			}
-
-			.branco {
-				color: white;
-			}
-
-
-
-			
+#rodape {
+	background-color: gray;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+}
