@@ -1,74 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title>TecBlog - O seu blog de tecnologia</title>
+	<title>Meu primeiro blog</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 
-	<div id="topo">
-		<h1>Tec<span class="branco">Blog</span></h1>
+	<!--inicio das partes do topo -->
+	<div id="cabecalho">
+		<div id="logo">
+			<h1>Tec<span id="branco">Blog</span></h1>
+		</div>
 		<div id="menu">
-			<a href="http://www.google.com.br">Home</a>
-			<a href="http://www.google.com.br">Jogos</a>
-			<a href="http://www.google.com.br">Celulares</a>
-			<a href="http://www.google.com.br">Informatica</a>
-			<a href="http://www.google.com.br">Eletronicos</a>
-		</div><!--fim da div menu-->
-	</div><!--fim da div topo-->
+			<a href="">Home</a>
+			<a href="">Eletronicos</a>
+			<a href="">Informatica</a>
+			<a href="">Jogos</a>
+			<a href="">Contato</a>
+		</div>
+	</div> <!--fim das partes do topo -->
 
-	<div id="container">
-
-		<div class="area_postagens">
-
-			<div id="conteudo">
-				<h2>Titulo da postagem 1</h2>
-				<p class="subtitulo">postado 20 de abril de 2022</p>
+	<div id="principal">
+		<div id="area_postagem">
+			<div class="post">
+				<h2>POST 1</h2>
+				<p id="subtitulo">Data da postagem 29 de abril de 2020</p>
 				<img width=620 src="imagens/imagem1.jpg">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula</p>
-				<a href="http://www.google.com.br">Leia mais</a>
+				<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="">Leia mais</a>
 			</div>
-
-			<div id="conteudo">
-				<h2>Titulo da postagem 2</h2>
-				<p class="subtitulo">postado 20 de maio de 2022</p>
+			<div class="post">
+				<h2>Titulo do segundo post</h2>
+				<p id="subtitulo">Data da postagem 29 de abril de 2020</p>
 				<img width=620 src="imagens/imagem2.jpg">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula</p>
-				<a href="http://www.google.com.br">Leia mais</a>
-			</div>		
-
+				<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="">Leia mais</a>
+			</div>
 		</div>
 
-		<div class="lateral">
-			<div id="titulo_cinza">Postagens recentes</div>
+		<div id="area_lateral">
 
-			<div id="conteudo_lateral">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-			<a href="http://www.google.com.br">Leia mais</a>
+			<div class="bloco_lateral">
+				<h3>Posts Recentes</h3>
+				<div class="publi_recentes">
+				<p >Publicacao recente 1 sAdsk d jsdj s sdh hsada dsn asd</p>
+				<a href="">Leia mais</a>
+				</div>
+				<div class="publi_recentes" style="border-bottom: none;">
+				<p>Publicacao recente 2 sAdsk d jsdj s sdh hsada dsn asd</p>
+				<a href="">Leia mais</a>
+				</div>
 			</div>
-			
-			<div id="conteudo_lateral" style="border-bottom: none;">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-			<a href="http://www.google.com.br">Leia mais</a>
+
+			<div class="bloco_lateral">
+				<h3>Categorias</h3>
+				<a href="">Jogos</a><br>
+				<a href="">Eletronicos</a><br>
+				<a href="">Informatica</a><br>
+				<a href="">Celulares</a><br>				
 			</div>
 
-		</div>
-
-		<div class="lateral">
-			<div id="titulo_cinza">Categorias</div>
-
-			<div id="links">
-				<a href="http://www.google.com.br">Jogos</a><br>
-				<a href="http://www.google.com.br">Informatica</a><br>
-				<a href="http://www.google.com.br">Celulares</a><br>
-				<a href="http://www.google.com.br">Eletronicos</a><br>
-			</div>
 		</div>
 
 		<div id="rodape">
-			Todos os direitos reservados.
+			Todos os direitos reservados
 		</div>
+
 	</div>
 
 </body>
