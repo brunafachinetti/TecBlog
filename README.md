@@ -1,7 +1,7 @@
 # TecBlog
-HTML/CSS course practicing files
+HTML/CSS course practicing exercise.
 
 I'm doing the #100DaysOfCode challenge and this is the first project.
-Just the appearance, not functional.
+Mock website, not functional.
 
-Follow me on Instagram @bruna_452
+Follow my coding journey on Instagram @bruna_452
